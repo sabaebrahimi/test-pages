@@ -1,0 +1,4 @@
+<span class="coloring">ddddd</span>
+<span *ngFor="let item of items" [id]="item">
+    <ng-content [select]="'[field='+item+']'"></ng-content>
+</span>
